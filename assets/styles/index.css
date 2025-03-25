@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------- Header ------------------------------------ */
+
+.header-container {
+    font-family: serif;
+    height: 25vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.brs-logo {
+    background-color: darkblue;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 40%;
+}
+
+.header {
+    width: 85%;
+    background-color: rgba(128, 128, 128, 0.274);
+}
+
+.container {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    padding: 0.8em 1em;
+    margin: 0;
+}
+
+.icon {
+    width: 1.5em;
+    margin-right: 1em;
+}
+
+.basic-apps {
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.container-2 {
+    padding: 0.5em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 65%;
+}
+
+.heading {
+    font-size: large;
+}
+
+.container-2 > p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.repository {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.8em;
+    font-weight: 600;
+    color: rgb(24, 137, 250);
+}
+
+/* --------------------------------------- Hero --------------------------------- */
+
+.hero {
+    /* background: url("../images/landing-page-1.jpeg"); */
+    background-image: url("../images/landing-page-1.jpeg");
+    height: 70vh;
+    box-shadow: inset 0 0 1000px rgb(0, 0, 0, 0.9);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+time {
+    font-size: 4em;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.hero > h1 {
+    font-size: 2.5em;
+    font-weight: lighter;
+    margin-bottom: 1em;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#name {
+    background-color: transparent;
+    margin: 0;
+    border: none;
+    font-size: 1em;
+    width: fit-content;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+.affirmation {
+    font-family: sans-serif;
+}
+
+#quote {
+    font-family: sans-serif;
+    margin: 0.3em 0;
+    font-size: x-large;
+}
+
+/* ------------------------------------ Footer ----------------------------------- */
+
+footer {
+    height: 10vh;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-item {
+    margin: 0;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-item > p {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: small;
+    width: fit-content;
+    margin: 0;
+}
+
+.footer-item:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red, .green, .blue {
+    height: 1.2em;
+    width: 1.2em;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin: 0 0.5em;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: darkblue;
+}
+
+.footer-img {
+    margin: 0;
+}
